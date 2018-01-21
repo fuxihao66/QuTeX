@@ -1,0 +1,72 @@
+@import '../../../node_modules/mathlive/dist/mathlive.core.css';
+@import '../../../node_modules/mathlive/dist/mathlive.css';
+
+body {
+    /* background: url(../assets/eva.png); */
+    background: radial-gradient(circle, rgb(253, 134, 217), white);
+    /* no-repeat top center; */
+    background-size: cover;
+  }
+div #toolbar {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  float: left;
+}
+div #editor {
+  width: 100%;
+  margin: auto;
+  padding: 0em;
+}
+main {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 5em;
+}
+
+#math-area {
+  border: 1px solid rgb(17, 2, 2);
+  padding:5px;
+  /* margin: 10px; */
+  border-radius:5px;
+  background-color: #fff;
+  max-width: 50em;
+  text-align: center;
+}
+
+button {  
+  margin: 0 5px;
+  border: none;
+  border-radius: 2px;
+  padding: 4px 23px;
+  color: white;
+  font-size: 14px;
+  font-family: monospace;
+  outline: none;
+  cursor: pointer;
+  width: 88px;
+  line-height: normal;
+}
+button.blue {
+  background: #3f9af9;
+  position: relative;
+
+}
+button.cyan {
+  background: #5db4cf;
+  position: relative;
+  
+}
+button.pink {
+  background: rgb(207, 93, 188);
+  position: relative;
+}
+button.toggle-preview {
+  background: rgb(89.4%, 29.5%, 18.8%);
+  position: relative;
+}
+
+/* .split-view {
+  float: top;
+} */
+

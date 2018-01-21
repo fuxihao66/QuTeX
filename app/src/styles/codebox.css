@@ -1,0 +1,26 @@
+@import "../../../node_modules/codemirror/lib/codemirror.css";
+@import "../../../node_modules/codemirror/theme/monokai.css";
+
+.codebox {
+    position: absolute;
+    top:50px;
+    bottom: 15px;
+    left:50%;
+    width: 90%;
+    height: 40%;
+    margin: 0 auto;
+    transform: translateX(-50%);
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;  
+    text-align: left; 
+}
+.CodeMirror {
+  height: 100%;
+}
+.cm-s-monokai.CodeMirror {
+  background-color: rgba(39, 40, 34, .8);
+}
+.cm-s-monokai .CodeMirror-gutters {
+  background-color: rgba(39, 40, 34, .7);
+}
