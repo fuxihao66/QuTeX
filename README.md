@@ -1,4 +1,3 @@
-## This is a powerful latex editor based on Electron+React+Webpack
+## A powerful paper editor based on Electron+React+Webpack
 
-### To Do
-1. 
+This project aims to be an alternative of LaTeX.  
